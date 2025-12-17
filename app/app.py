@@ -62,6 +62,10 @@ app.layout = html.Div([
             type='text',
             placeholder='e.g., Noah A. Smith',
             style={'width': '100%'}
+        ), 
+        dcc.Markdown(
+        "Note: The first three tabs update dynamically when you enter an author name. "
+        "Please allow a few seconds for the pages to load.", style={"marginTop": "15px"}
         )
     ], style={'width': '20%', 'float': 'left', 'padding': '10px'}),
 
@@ -304,7 +308,7 @@ def all_time_trends(author):
         y='count',
         title='Most Popular ArXiv Categories (All-Time)',
         labels={'category_name': 'Category', 'count': 'Total Papers'},
-        template="plotly", 
+        template="plotly",
         color='count',
         color_continuous_scale='plasma'
     )
@@ -347,6 +351,7 @@ def abstract_trends(author):
         y='Word Count',
         color='Metric',
         markers=True,
+        template="plotly",
         title='Abstract Length Trends Over Time',
         labels={'year': 'Year'}
     )

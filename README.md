@@ -29,8 +29,8 @@ This table summarizes abstract length trends over time.
 | Column Name     | Data Type | Key Type        | Description                                                         |
 | --------------- | --------- | --------------- | ------------------------------------------------------------------- |
 | `year`          | int   | Primary Key     | Submission year.                                                    |
-| `avg_length`    | float     | —               | Average abstract word count for papers submitted in the given year. |
-| `median_length` | float     | —               | Median abstract word count for papers submitted in the given year.  |
+| `avg_length`    | float     | —               | Average abstract word count for papers in the given year. |
+| `median_length` | float     | —               | Median abstract word count for papers in the given year.  |
 
 #### 3. `author_counts.csv` — Author Publication Counts by Year
 

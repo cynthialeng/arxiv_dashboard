@@ -1,6 +1,10 @@
 # ArXiv Dashboard
 A dashboard for displaying arXiv metadata in accessible ways.
 
+# Gen AI Statement
+**Code:** ChatGPT was used to improve the aesthetic design of the table under the second tab, *“Paper Metadata”*, in the dashboard.  
+**Text:** ChatGPT was used to enhance the wording, clarity, and overall readability across all parts of the project.
+
 # Database Documentation
 
 This database contains processed and derived metadata tables constructed from arXiv submission records. The schema supports longitudinal, author-level, category-level, and topic-based analysis of arXiv publications.

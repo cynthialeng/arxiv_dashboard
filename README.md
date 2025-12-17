@@ -82,8 +82,8 @@ This table quantifies the prevalence of papers assigned to multiple categories o
 | Column Name | Data Type | Key Type        | Description                                                           |
 | ----------- | --------- | --------------- | --------------------------------------------------------------------- |
 | `year`      | int       | Primary Key     | Submission year.                                                      |
-| `sum`       | int       | —               | Number of papers assigned to more than one category.                  |
-| `share`     | float     | —               | Proportion of papers assigned to more than one category.              |
+| `sum`       | int       | —               | Number of papers with more than one category.                  |
+| `share`     | float     | —               | Proportion of papers with more than one category.              |
 
 #### 8. `dl.csv`, `ml.csv`, `rl.csv`, `llm.csv`, `homepage.csv` - Topic Trend Tables
 

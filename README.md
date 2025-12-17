@@ -22,7 +22,7 @@ This is the central table containing one row per arXiv submission. All downstrea
 | `journal_ref`    | text      | —               | Information about the journal the paper was published in.           |
 | `comments`       | text      | —               | Author-provided comments (e.g., page count, figures).               |
 
-#### 2. `abstract_length_by_year.csv` — Abstract Length Statistics
+#### 2. `abstract_length_by_year.csv`
 
 This table summarizes abstract length trends over time.
 
@@ -32,7 +32,7 @@ This table summarizes abstract length trends over time.
 | `avg_length`    | float     | —               | Average abstract word count for papers in the given year. |
 | `median_length` | float     | —               | Median abstract word count for papers in the given year.  |
 
-#### 3. `author_counts.csv` — Author Publication Counts by Year
+#### 3. `author_counts.csv`
 
 This table provides a longitudinal author–year panel derived from parsed authorship strings.
 
@@ -43,7 +43,7 @@ This table provides a longitudinal author–year panel derived from parsed autho
 | `paper_count` | int   | —           | Number of papers by the given author in the given year. |
 
 
-#### 4. `category_counts_alltime.csv` — All-Time Category Frequencies
+#### 4. `category_counts_alltime.csv`
 
 This table summarizes total paper counts by arXiv category code across all years.
 
@@ -53,7 +53,7 @@ This table summarizes total paper counts by arXiv category code across all years
 | `count`         | int       | —               | Total number of papers assigned to this category. |
 
 
-#### 5. `category_map.csv` — arXiv Category Metadata
+#### 5. `category_map.csv`
 
 This table maps arXiv category codes to human-readable category names.
 
@@ -62,7 +62,7 @@ This table maps arXiv category codes to human-readable category names.
 | `category_code` | text      | Primary Key     | Official arXiv category code.                                |
 | `category_name` | text      | —               | Descriptive category name (e.g., “Artificial Intelligence”). |
 
-#### 6. `default_table.csv` — Recent Paper Metadata (Dashboard View)
+#### 6. `default_table.csv`
 
 This table contains a recent subset of papers for display in the dashboard.
 
@@ -75,7 +75,7 @@ This table contains a recent subset of papers for display in the dashboard.
 | `date`       | date      | —           | Submission date.                      |
 | `comments`   | text      | —           | Author-provided comments.             |
 
-#### 7. `multicategory_by_year.csv` — Multi-Category Assignment Trends
+#### 7. `multicategory_by_year.csv`
 
 This table quantifies the prevalence of papers assigned to multiple categories over time.
 
@@ -85,7 +85,7 @@ This table quantifies the prevalence of papers assigned to multiple categories o
 | `sum`       | int       | —               | Number of papers with more than one category.                  |
 | `share`     | float     | —               | Proportion of papers with more than one category.              |
 
-#### 8. `dl.csv`, `ml.csv`, `rl.csv`, `llm.csv`, `homepage.csv` - Topic Trend Tables
+#### 8. `dl.csv`, `ml.csv`, `rl.csv`, `llm.csv`, `homepage.csv`
 
 These tables share an identical schema and capture annual submission counts for specific topics or overall submissions.
 

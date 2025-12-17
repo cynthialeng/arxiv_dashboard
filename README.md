@@ -5,6 +5,8 @@ A dashboard for displaying arXiv metadata in accessible ways.
 
 This database contains processed and derived metadata tables constructed from arXiv submission records. The schema supports longitudinal, author-level, category-level, and topic-based analysis of arXiv publications.
 
+![ER Diagram](er.png)
+
 #### 1. `papers2.csv` — Primary Table
 
 This is the central table containing one row per arXiv submission. All downstream tables are derived from this table.

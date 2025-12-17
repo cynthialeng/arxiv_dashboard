@@ -2,7 +2,7 @@
 A dashboard for displaying arXiv metadata in accessible ways.
 
 # Gen AI Statement
-**Code:** ChatGPT was used to improve the aesthetic design of the table under the tab *“Paper Metadata”* in the dashboard.  
+**Code:** ChatGPT was used to improve the aesthetic design of the table under the second tab in the dashboard.  
 **Text:** ChatGPT was used to enhance the wording, clarity, and overall readability across all parts of the project.
 
 # Database Documentation
